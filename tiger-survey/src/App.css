@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+.App-header {
+  background-color: rgb(156, 189, 197);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  /* max-width: 80%; */
+}
+
+.App-link {
+  color: #61dafb;
+}
+.surveytype{
+  font-size: calc(10px + 2vmin);
+  margin: auto;
+  margin-top: 30px;
+  min-height: 25px;
+  max-width: 180px;
+  background-color: rgb(200, 222, 228);
+  padding: 20px ;
+}
+.container{
+  /* margin-top: 50px; */
+  padding: 10;
+  margin: auto;
+  max-width: 80%;
+  background-color: rgb(156, 189, 197);
+}
+.createSurvey{
+  margin-top: 50px;
+  margin: auto;
+  max-width: 70%;
+  background-color: rgb(200, 222, 228);
+
+}
+.questions{
+  text-align: left;
+  margin: auto;
+  max-width: 60%;  
+}
+.multi{
+  margin-top: 20px; 
+  padding: 10px; 
+}
+input{
+  width: 80%;
+  margin-top: 10px;
+}
+.publish{
+  margin-top: 30px;
+}
+input[type=radio] {
+  border: 0px;
+  width: 30%;
+}
